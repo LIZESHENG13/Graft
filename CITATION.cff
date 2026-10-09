@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the Graft paper when using this software."
+title: "New Items Need Grafting: Expanding Semantic Paths for Inductive Recommendation"
+type: software
+version: 0.1.0
+authors:
+  - name: "Graft contributors"
+license: MIT
+abstract: "Graft expands semantic leaf paths while preserving model parameters, base codebooks, existing prefixes, and registered item addresses."

@@ -1,0 +1,29 @@
+{
+  "dataset": "Office",
+  "domain": "Office_Products",
+  "workspace": "..",
+  "seed": 2024,
+  "codebook_sizes": [
+    256,
+    256,
+    256
+  ],
+  "leaf_budget": 8192,
+  "warmup_steps": 0,
+  "search": {
+    "new_leaf_bias": 2,
+    "coarse_beam": 200,
+    "leaf_beam": 50,
+    "top_k": 50,
+    "temperature": 0.07,
+    "coarse_weight": 0.25,
+    "batch_size": 128
+  },
+  "refinement": {
+    "steps": 1000,
+    "base_path_weight": 0,
+    "teacher_weight": 100,
+    "episode_new_only": true,
+    "reachable_only": true
+  }
+}
